@@ -21,10 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Schibsted.className} min-h-screen`}
+        className={`${Schibsted.className} h-screen`}
       >
         {children}
       </body>
     </html>
   );
 }
+
+// como eu faco para ter duas linguagens no meu site?
